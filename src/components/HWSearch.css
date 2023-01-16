@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ColisterBlack;
+    src: url(./fonts/CloisterBlack.ttf);
+  }
+
+
+.search {
+    text-align:center;
+    color: #291703;
+}
+
+#searchBar[type=text] {
+  font-family: ColisterBlack; 
+  color: #291703; 
+}
+
+#searchBar {
+    height: 30px;
+    width: 300px;
+    border-color: #291703;
+}
+
+#searchButton {
+    width: 110px;
+    height: 35px;
+    background-color: white;
+    font-family: ColisterBlack;
+    text-align: center;
+    border-color: #291703;
+    color: #291703;
+    font-size: 18px;
+    transition: all 0.6s ease-out;
+}
+
+#searchButton:hover {
+    background-color: #291703;
+    color: white;
+    border-color: white;
+    transition: all 0.6s ease-in;
+}
